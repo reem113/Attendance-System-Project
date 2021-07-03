@@ -1,0 +1,119 @@
+$backgroundcolor: #DCE1E4;
+$buttoncolor: rgb(108, 108, 172);
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.logo {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    font-stretch: semi-expanded;
+    border-radius: 50%;
+    padding: 10px;
+    background: -webkit-radial-gradient(circle, white, rgb(72, 88, 95));
+}
+
+.header {
+    background-color: $backgroundcolor;
+    padding: 10px;
+}
+
+body {
+    background: -webkit-radial-gradient(circle, $backgroundcolor, white);
+}
+
+.mainwrapper {
+    padding: 10px 10%;
+
+}
+
+#errorlogin {
+    color: red;
+    display: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+%mainButton {
+    margin: 5px auto;
+    width: 50%;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.inputButton {
+    @extend %mainButton;
+}
+
+.inputButton:hover {
+    color: white;
+    background-color: $buttoncolor;
+}
+
+.footerp {
+    background-color: rgb(72, 88, 95);
+    color: whitesmoke;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.modalp {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: 5px;
+}
+
+.modalspan {
+    font-weight: normal;
+}
+
+.usernamespan {
+
+    border: 1px solid darkgrey;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: large;
+    display: block;
+    background-color: white;
+}
+
+.cardButton {
+    @extend %mainButton;
+    border: 1px solid #EFEFEF;
+    border-radius: 50%;
+    font-size: large;
+}
+
+.cardButton:hover {
+    color: white;
+    background-color: $buttoncolor;
+    cursor: pointer;
+}
+
+.cardButton:focus {
+    color: white;
+    background-color: $buttoncolor;
+}
+
+.wrap {
+    margin: 10px auto;
+}
+
+#daythirty {
+    display: none;
+    font-weight: bold;
+    color: green;
+    font-size: larger;
+}

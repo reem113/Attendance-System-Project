@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Reem",
+        "address": "34 balata st.",
+        "email": "reemshokry0@gmail.com",
+        "age": 24,
+        "username": "ree34iti",
+        "password": "masr$Amm",
+        "flag": 1,
+        "attendanceNo": 0,
+        "abscenceNo": 0,
+        "lateNo": 0
+    },
+    {
+        "name": "Sara Youssef",
+        "address": "El-Mansoura",
+        "email": "saraayousef@gmail.com",
+        "age": 27,
+        "username": "sar56iti",
+        "password": "f1tlF@yv",
+        "flag": 0,
+        "attendanceNo": 21,
+        "abscenceNo": 1,
+        "lateNo": 2
+    },
+    {
+        "name": "Nigel Newman Walter Wallace",
+        "address": "Ad qui minus et aliq",
+        "email": "xacymi@mailinator.com",
+        "age": "26",
+        "username": "Nig92iti",
+        "password": "@CzsxiIZ",
+        "flag": 0,
+        "attendanceNo": 2,
+        "abscenceNo": 20,
+        "lateNo": 0
+    },
+    {
+        "name": "Axel Grant Jordan Clay",
+        "address": "Dignissimos quidem v",
+        "email": "kuqinubah@mailinator.com",
+        "age": "58",
+        "username": "Axe30iti",
+        "password": "#zArJuum",
+        "flag": 0,
+        "attendanceNo": 0,
+        "abscenceNo": 0,
+        "lateNo": 0
+    },
+    {
+        "name": "John Doe",
+        "address": "18 mine st",
+        "email": "jdoe@yahoo.com",
+        "age": 21,
+        "username": "Joh12iti",
+        "password": "e3rfT@wi",
+        "flag": 0,
+        "attendanceNo": 23,
+        "abscenceNo": -1,
+        "lateNo": 5
+    },
+    {
+        "name": "Owen Bryant Clarke Kirkland",
+        "address": "Est blanditiis moles",
+        "email": "wytegitaq@mailinator.com",
+        "age": "8",
+        "username": "Owe51iti",
+        "password": "FY9r$IJZ",
+        "flag": 0,
+        "attendanceNo": 0,
+        "abscenceNo": 0,
+        "lateNo": 0
+    },
+    {
+        "name": "Cassidy Merrill Madeson Humphrey",
+        "address": "Consectetur et quia",
+        "email": "lohucegoji@mailinator.com",
+        "age": "74",
+        "username": "Cas40iti",
+        "password": "c7GSrQ#y",
+        "flag": 0,
+        "attendanceNo": 0,
+        "abscenceNo": 0,
+        "lateNo": 0
+    }
+]

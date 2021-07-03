@@ -1,0 +1,91 @@
+/* $(document).ready(function () {
+    
+   
+
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.download = "backup.json";
+    a.href = url;
+    a.textContent = "Download backup.json";
+}) */
+
+
+
+// a.textContent = "Download backup.json";
+        /* 
+        var data = {a:"esraa", b:"reem", c:"react"};
+        var json = JSON.stringify(data);
+        var blob = new Blob([json], {type: "application/json"});
+        var url  = URL.createObjectURL(blob);
+
+
+        var submit_button = document.createElement('a');
+        a.download    = "backup.json";
+        a.href        = url;
+        a.textContent = "Download backup.json";
+
+        document.getElementById('content').appendChild(a);
+
+
+
+                var blob = new Blob([jsonEmp], {type: "application/json"});
+                var url  = URL.createObjectURL(blob);
+                    
+                var a = document.createElement('a');
+                a.download    = "backup.json";
+                a.href        = url;
+                a.textContent = "Download backup.json";
+                $(".mainwrapper").append(a); */
+
+        /*    const fs = require("fs");
+
+           // STEP 1: Reading JSON file
+           const employees = require("./empdata");
+
+           // Defining new user
+           // let jsonEmployee = JSON.stringify(employee);
+
+           // STEP 2: Adding new data to employees object
+           employees.push(employee);
+
+           // STEP 3: Writing to a file
+           fs.writeFile("employees.json", JSON.stringify(employees), err => {
+           
+           	// Checking for errors
+           	if (err) throw err;
+           
+           	console.log("Done writing"); // Success
+           }); */
+
+
+
+/* $(document).ready(function() {
+    $("#submit").click(function(e){
+       var jsonData = {};
+       
+     var formData = $("#myform").serializeArray();
+    // console.log(formData);
+     
+     $.each(formData, function() {
+          if (jsonData[this.name]) {
+             if (!jsonData[this.name].push) {
+                 jsonData[this.name] = [jsonData[this.name]];
+             }
+             jsonData[this.name].push(this.value || '');
+         } else {
+             jsonData[this.name] = this.value || '';
+         }
+             
+         
+     });
+     console.log(jsonData);
+      $.ajax(
+      {
+          url : "",
+          type: "POST",
+          data : jsonData,
+          
+      });
+      e.preventDefault();	
+  });
+  }); */

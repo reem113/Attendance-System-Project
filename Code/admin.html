@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Attendance System</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="dist/admin.css" rel="stylesheet">
+    <link href="dist/home.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand navbar-fixed-top navbar-light header">
+
+        <div class="navbar-header">
+            <a class="navbar-brand logo">Attendance System</a>
+        </div>
+        <ul class="nav navbar-nav nav-tabs alert-link ">
+            <li class="nav-item active"><a class="nav-link" href="admin.html">Admin</a></li>
+        </ul>
+
+    </nav>
+    <div id="mainwrapper">
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12">
+                <div id="buttonwrapper">
+                    <ul>
+                        <li id="allreports">All Employees</li>
+                        <li id="latereports">Late Reports</li>
+                        <li id="abscencereports">Abscence Reports</li>
+                        <li id="attendancereports">Attendance Reports</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-8 col-sm-12">
+                <div id="tablewrapper">
+                    <table id="allTable"></table>
+                    <table id="lateTable"></table>
+                    <table id="abscenceTable"></table>
+                    <table id="attendanceTable"></table>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <script src="./js/JQuery-3.3.1.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <!--custom scripts after pluging-->
+
+    <script src="admin.js"></script>
+</body>
+
+</html>

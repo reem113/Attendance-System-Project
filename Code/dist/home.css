@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: x-large;
+  font-stretch: semi-expanded;
+  border-radius: 50%;
+  padding: 10px;
+  background: -webkit-radial-gradient(circle, white, #48585f);
+}
+
+.header {
+  background-color: #DCE1E4;
+  padding: 10px;
+}
+
+body {
+  background: -webkit-radial-gradient(circle, #DCE1E4, white);
+}
+
+.mainwrapper {
+  padding: 10px 10%;
+}
+
+#errorlogin {
+  color: red;
+  display: none;
+}
+
+label {
+  font-weight: bold;
+}
+
+.cardButton, .inputButton {
+  margin: 5px auto;
+  width: 50%;
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.inputButton:hover {
+  color: white;
+  background-color: #6c6cac;
+}
+
+.footerp {
+  background-color: #48585f;
+  color: whitesmoke;
+  text-align: center;
+  margin: 5px;
+}
+
+.modalp {
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  margin: 5px;
+}
+
+.modalspan {
+  font-weight: normal;
+}
+
+.usernamespan {
+  border: 1px solid darkgrey;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: large;
+  display: block;
+  background-color: white;
+}
+
+.cardButton {
+  border: 1px solid #EFEFEF;
+  border-radius: 50%;
+  font-size: large;
+}
+
+.cardButton:hover {
+  color: white;
+  background-color: #6c6cac;
+  cursor: pointer;
+}
+
+.cardButton:focus {
+  color: white;
+  background-color: #6c6cac;
+}
+
+.wrap {
+  margin: 10px auto;
+}
+
+#daythirty {
+  display: none;
+  font-weight: bold;
+  color: green;
+  font-size: larger;
+}

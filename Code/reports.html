@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>User Reports</title>
+    <script src="./js/JQuery-3.3.1.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="dist/home.css" rel="stylesheet">
+    <script src="reports.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand navbar-fixed-top navbar-light header">
+
+        <div class="navbar-header">
+            <a class="navbar-brand logo">Attendance System</a>
+        </div>
+
+        <ul class="nav navbar-nav nav-tabs alert-link">
+            <li class="nav-item"><a class="nav-link" href="attendanceConfirm.html">Confirm Attendance</a></li>
+            <li class="nav-item active"><a class="nav-link" href="reports.html">Reports</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="container wrap">
+        <h1 id="username">Username</h1>
+        <div id="accordion" class="row">
+            <div class="card col-6">
+                <div>
+                    <button class="cardButton" id="monthButton" data-toggle="collapse" data-target="#cardone">Monthly
+                        Report</button>
+                </div>
+                <div class="collapse show" id="cardone" data-parent="#accordion">
+                    <div id="month" class="card-body text-center m-auto ">
+                        <p class="modalp">Attendance Times: <span class="modalspan badge-pill badge-secondary"
+                                id="attendanceCount"></span></p>
+                        <p class="modalp">Late Times: <span class="modalspan badge-pill badge-secondary"
+                                id="lateCount"></span></p>
+                        <p class="modalp">Abscence Times: <span class="modalspan badge-pill badge-secondary"
+                                id="abscenceCount"></span></p>
+
+                    </div>
+                    <p id="daythirty">Check on 30<sup>th</sup> of this month</p>
+                </div>
+            </div>
+
+            <div class="card col-6">
+                <div>
+                    <button class="cardButton" id="week" data-toggle="collapse" data-target="#cardtwo">Daily
+                        Report</button>
+                </div>
+                <div class="collapse" id="cardtwo" data-parent="#accordion">
+                    <div class="card-body text-center m-auto ">
+                        <p class="modalp">Attendance Time: <span class="modalspan badge-pill badge-secondary"
+                                id="attendentTime"></span></p>
+                        <p class="modalp">Leaving Time: <span class="modalspan badge-pill badge-secondary"
+                                id="leavingTime">17:00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+    <!--End Of Container-->
+
+    <script src="js/JQuery-3.3.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+<footer>
+    <p class="footerp">
+        Copyright &copy; 2021 All Right Reserved to Reem &reg;ITI Project
+    </p>
+</footer>
+
+</html>

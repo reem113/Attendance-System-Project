@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Login</title>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/JQuery-3.3.1.js"></script>
+  <script src="./js/popper.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/font-awesome.css" rel="stylesheet" />
+  <link href="dist/home.css" rel="stylesheet">
+  <script src="login.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand navbar-fixed-top navbar-light header">
+
+    <div class="navbar-header ">
+      <a class="navbar-brand logo">Attendance System</a>
+    </div>
+    <ul class="nav navbar-nav nav-tabs alert-link">
+      <li class="nav-item"><a class="nav-link " href="home.html">Home</a></li>
+      <li class="nav-item active"><a class="nav-link" href="login.html">Login</a></li>
+
+    </ul>
+
+  </nav>
+  <div class="mainwrapper">
+    <div class="form-group">
+      <label> User-Name</label>
+      <input type="text" class="form-control" placeholder="User-Name" />
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" class="form-control" />
+    </div>
+    <p id="errorlogin">Your username or password may be incorrect please check them and try again</p>
+    <input type="button" id="login" class="form-control inputButton" value="Login" />
+  </div>
+</body>
+<footer>
+  <p class="footerp">
+    Copyright &copy; 2021 All Right Reserved to Reem &reg;ITI Project
+  </p>
+</footer>
+
+</html>
